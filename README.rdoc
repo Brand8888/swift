@@ -1,3 +1,43 @@
-# Online Speed Dating Web Application - NEXT Academy competition
+What is Swift?
+
+93% of communication is non-verbal, yet we rely texting as the main medium of communication when meeting someone new online. Swift introduces a speed dating concept which allows people to meet face to face via webcam. 
+
+
+How it works?
+
+When 2 profiles "matches", a video conversation with a countdown timer of 2 minutes starts. Once the 2 minutes is up, a pop-up model appears asking the user whether they would like to further the conversation with the other party. If both clicks yes, then the video conversation resumes.
+
+Installation
+
+$ Clone / Fork Repository
+  $ git clone https://github.com/Brand8888/swift.git
+
+$ Install/ Update Dependencies
+  $ bundle install
+  $ rake db:create
+  $ rake db:migrate
+  $ rails server
+
+$ Head to http://localhost:3000
+
+Note:
+  OpenTok API expired!
+
+
+API Reference
+  Video Streaming : OpenTok API 
+  https://tokbox.com/ 
+
+
+Contributors:
+  1. Brandon Pong
+  2. Diederik van der Hoek
+  3. Leslie Ang
+  4. Abdul Rhman Sudan
+
+
+
+
+
 
 
